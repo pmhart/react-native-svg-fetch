@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(superpowers:brainstorming)",
+      "Skill(superpowers:writing-plans)",
+      "Skill(superpowers:subagent-driven-development)",
+      "Read(//private/tmp/**)",
+      "Bash(npx create-react-native-library@latest react-native-svg-uri --slug react-native-svg-uri --description 'Render remote SVGs in React Native using react-native-svg' --author-name Paul --author-email pmhart@ymail.com --author-url https://github.com/pmhart --repo-url https://github.com/pmhart/react-native-svg-uri --languages js --type library)",
+      "Bash(npx create-react-native-library@latest react-native-svg-uri --slug react-native-svg-uri --description 'Render remote SVGs in React Native using react-native-svg' --author-name Paul --author-email pmhart@ymail.com --author-url https://github.com/pmhart --repo-url https://github.com/pmhart/react-native-svg-uri --languages js --type library --example vanilla)",
+      "Bash(npx create-react-native-library@latest --help)",
+      "Bash(rm -rf /tmp/react-native-svg-uri)",
+      "Bash(npx create-react-native-library@latest react-native-svg-uri --slug react-native-svg-uri --description 'Render remote SVGs in React Native using react-native-svg' --author-name Paul --author-email pmhart@ymail.com --author-url https://github.com/pmhart --repo-url https://github.com/pmhart/react-native-svg-uri --languages js --type library --example vanilla --tools eslint jest)",
+      "Bash(yarn *)",
+      "Bash(npm --version)",
+      "Bash(corepack enable *)",
+      "Bash(corepack prepare *)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/paul/.yarn/bin/**)"
+    ]
+  }
+}

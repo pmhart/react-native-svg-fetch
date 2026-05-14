@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find ~/Library/Developer/Xcode/DerivedData -name \"*.xcactivitylog\" -newer /tmp -type f 2>/dev/null | head -5)",
+      "Read(//Users/paul/Library/Developer/Xcode/DerivedData/**)",
+      "Bash(xargs cat)"
+    ]
+  }
+}
